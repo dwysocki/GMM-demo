@@ -1,0 +1,12 @@
+\documentclass[preview]{standalone}
+
+\usepackage{physics}
+
+\begin{document}
+\begin{gather*}
+  p(\vb{x} | \qty{ \pi_k }, \qty{ \vb*\mu_k }, \qty{ \vb*\Sigma_k }) =
+  \sum_{k=1}^K \pi_k \mathcal{N}(\vb{x} | \vb*\mu_k, \vb*\Sigma_k),
+  \\
+  0 \leq \pi_k \leq 1, \qquad \sum_{k=1}^K \pi_k = 1
+\end{gather*}
+\end{document}
